@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    margin-top: 20px;
+    height: 100%;
+}
+
+img{
+    scale:calc(.9);
+    margin: 15px;
+    border-radius: 50%;
+}
+
+#max{
+    height: 800px;
+}
