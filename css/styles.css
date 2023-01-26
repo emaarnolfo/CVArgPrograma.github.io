@@ -1,11 +1,14 @@
 body {
     background-color: aqua;
+    left: 0px;
 }
 
 .col-4 {
-    flex: 0 0 auto;
+    flex: 0 0 0 0;
     width: 33.33333333%;
+    left: 0px;
     margin-top: 20px;
+    background-color: blue;
     height: 100%;
 }
 
