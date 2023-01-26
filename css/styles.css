@@ -1,16 +1,5 @@
-body {
-    background-color: aqua;
-    left: 0px;
-}
 
-.col-4 {
-    flex: 0 0 0 0;
-    width: 33.33333333%;
-    left: 0px;
-    margin-top: 20px;
-    background-color: blue;
-    height: 100%;
-}
+
 
 img{
     scale:calc(.9);
@@ -19,5 +8,26 @@ img{
 }
 
 #max{
-    height: 800px;
+    min-height: 100vh;
+}
+
+#barra {
+    position: relative;
+}
+
+.col-4 {
+    background-color: #3f6399;
+}
+
+.col {
+    background-color: #D9E6FF;
+}
+
+.container {
+    background-color: #D9E6FF;
+    max-width: 100% !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    padding-right: 0px !important;
 }
