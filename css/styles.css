@@ -1,10 +1,8 @@
-
-
-
 img{
     scale:calc(.9);
     margin: 15px;
     border-radius: 50%;
+    border: 4px solid black;
 }
 
 #max{
@@ -16,7 +14,8 @@ img{
 }
 
 .col-4 {
-    background-color: #3f6399;
+    background-color: #7191c1;
+    padding-right: 0px !important;
 }
 
 .col {
@@ -30,4 +29,31 @@ img{
     padding-left: 0px !important;
     margin-right: 0px !important;
     padding-right: 0px !important;
+}
+
+.panel_lateral{
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.separador{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+.bi{
+    font-style: normal;
+    font-size: medium;
+    font-style: italic;
+}
+p {
+    margin-bottom: 0px !important;
+    padding: 0 0 0 0px;
+    font-style: italic;
 }
